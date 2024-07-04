@@ -4,9 +4,9 @@ const Home = () => {
   return (
     <div>
       {/* Play now button and bg-image div */}
-      <div className="bg-no-repeat h-[824px] w-[1280px]" style={{ backgroundImage: `url('./src/assets/image.svg')` }}>
+      <div className="bg-no-repeat h-[824px] w-[1280px]" style={{ backgroundImage: `url('./src/assets/image.jpg')` }}>
         <button className="absolute flex w-[361px] h-[89px] px-[74.07px] justify-center items-center rounded-[33px] bg-[#A259FF]  mt-[276px] ml-[460px]">
-            <img className="mr-[17.78px] w-[29.629px] h-[29.629px]" src="./src/assets/RocketLaunch.svg"/>
+            <img className="mr-[17.78px] w-[29.629px] h-[29.629px] " src="./src/assets/RocketLaunch.png"/>
             <p className="text-white text-center font-sans text-[23.704px] not-italic font-semibold leading-[33.185px]">Play Now!!</p>
         </button>
       </div>
@@ -21,7 +21,7 @@ const Home = () => {
           </div>
           <Link to="ranking">
               <button className="absolute px-[50px] justify-center items-center rounded-[20px]  border-[#A259FF] border-[2px] border-solid h-[60px] mt-4 flex">
-                <img className="w-8 h-8 pr-3" src="./src/assets/RocketLaunch_2.svg"/>
+                <img className="w-8 h-6 pr-3 " src="./src/assets/RocketLaunch_2.png"/>
                 <p className="text-white font-sans  text-base not-italic font-semibold leading-[22.4px]">View Rankings</p>
               </button>
           </Link>
