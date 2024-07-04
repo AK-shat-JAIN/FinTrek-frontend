@@ -1,4 +1,4 @@
-import { BsDiscord, BsYoutube, BsTwitter, BsInstagram } from 'react-icons/bs'
+import { BsDiscord, BsInstagram,BsTwitter, BsYoutube } from 'react-icons/bs'
 
 function Footer() {
     const year=new Date().getFullYear();
