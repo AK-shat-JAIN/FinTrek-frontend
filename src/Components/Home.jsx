@@ -30,10 +30,7 @@ const Home = () => {
 
       {/* Top Rankers section */}
       <div className="py-20 px-28">
-
         <div className="flex flex-row">
-
-          {/* Top Rankers section */}
           <div className="flex flex-col mr-auto">
             <p className="text-white text font-sans text-3xl not-italic font-semibold leading-[45.6px] capitalize w-[703px] h-[46px]">Top Rankers</p>
             <p className="text-white font-sans text-[22px] not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px]">Checkout Our Top Perfomers</p> 
@@ -45,8 +42,7 @@ const Home = () => {
               </button>
           </Link>
         </div>
-
-        <div className="mt-14 flex flex-wrap gap-6">
+        <div className="mt-14 flex flex-wrap gap-5 ">
           <ArtistCard image={Keepitreal} name="Keepitreal" sales="34.53"/>
           <ArtistCard image={Diglab} name="Digilab" sales="34.53"/>
           <ArtistCard image={Gravityone} name="GravityOne" sales="34.53"/>
@@ -59,29 +55,11 @@ const Home = () => {
           <ArtistCard image={Animakid} name="Animakid" sales="34.53"/>
           <ArtistCard image={Dotgu} name="Dotgu" sales="34.53"/>
           <ArtistCard image={Ghiblier} name="Ghiblier" sales="34.53"/>
-
         </div>
-
-    
-      
-
-
-        {/* <div className="mb-[10px] flex flex-row">
-          <p className="text-white text font-sans text-3xl not-italic font-semibold leading-[45.6px] capitalize w-[703px] h-[46px] mr-[100px]">Top Rankers</p>
-          <Link to="ranking">
-            <button className="px-[50px]  rounded-[20px] justify-center border-[#A259FF] border-[2px] border-solid h-[60px] mt-10">
-              <img className="w-5 h-5 pr-3" src="./src/assets/RocketLaunch_2.svg"/>
-              <p className="text-white text-center font-sans text-base not-italic font-semibold leading-[22.4px]">View Rankings</p>
-            </button>
-          </Link>
-        </div>
-
-        <div className="mt-0x">
-          <p className="text-white font-sans text-[22px] not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px] mr-[100px]">Checkout Our Top Perfomers</p> */}
-          
-        {/* </div> */}
-
       </div>
+
+      {/* Recommendation Section */}
+
        
       
     </div>
