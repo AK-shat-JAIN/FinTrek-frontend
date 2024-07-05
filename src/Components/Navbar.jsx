@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
 
         <Link to="/premium">
-          <button className="mt-[0px] flex h-[60px] justify-center items-center px-[30px] rounded-[20px] ml-8 border-[#A259FF] border-[3px] border-solid">            <FaCrown className="w-[26px] h-5 mr-3 text-yellow-400"/>
+          <button className="mt-[0px] flex h-[60px] justify-center items-center px-[30px] rounded-[20px] ml-8 border-[#A259FF] border-[3px] border-solid"><FaCrown className="w-[26px] h-5 mr-3 text-yellow-400"/>
             <p className="text-white text-center font-sans text-base not-italic font-semibold leading-[22.4px]">Get Premium</p>  
           </button>
         </Link>
