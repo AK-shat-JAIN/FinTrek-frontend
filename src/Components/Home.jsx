@@ -14,8 +14,21 @@ import Rustyrobot from "../assets/Rustyrobot.png"
 import Animakid from "../assets/Animakid.png"
 import Dotgu from "../assets/Dotgu.png"
 import Ghiblier from "../assets/Ghiblier.png"
+import R1 from "../assets/R1.png"
+import r2 from "../assets/r2.png"
+import r3 from "../assets/r3.png"
+import r4 from "../assets/r4.png"
+import M1 from "../assets/M1.png"
+import m2 from "../assets/m2.png"
+import m3 from "../assets/m3.png"
+import m4 from "../assets/m4.png"
+import D1 from "../assets/D1.png"
+import d2 from "../assets/d2.png"
+import d3 from "../assets/d3.png"
+import d4 from "../assets/d4.png"
 import { IMAGE_1 } from "../utils/constants"
 import { ArtistCard } from "./ArtistCard";
+import { RecommendationCard } from "./RecommendationCard"
 
 const Home = () => {
   return (
@@ -59,7 +72,19 @@ const Home = () => {
       </div>
 
       {/* Recommendation Section */}
+      <div className="py-20 px-28">
+        <div className="mb-14">
+          <p className="text-white font-sans text-4xl not-italic font-semibold mb-2">Recommendations</p>
+          <p className="text-white text-xl not-italic font-normal">Checkout The Trending Collections To Know What Suits You The Best.</p>
+        </div>
+        <div className="flex flex-wrap gap-6">
+          <RecommendationCard imgP={R1} imgS1={r2} imgS2={r3} imgL={r4} collection="DESN Animals" artist="MrFox"/>
+          <RecommendationCard imgP={M1} imgS1={m2} imgS2={m3} imgL={m4} collection="Magic Mushrooms" artist="Shrommie"/>
+          <RecommendationCard imgP={D1} imgS1={d2} imgS2={d3} imgL={d4} collection="Disco Machines" artist="BeKind2Robots"/>
+        </div>
+      </div>
 
+      {/* Browser Categories */}
        
       
     </div>
