@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom"
 
+import RocketLaunch from "../assets/RocketLaunch.png";
+import RocketLaunch_2 from "../assets/RocketLaunch_2.png"
+import { IMAGE_1 } from "../utils/constants"
+
 const Home = () => {
   return (
     <div>
       {/* Play now button and bg-image div */}
-      <div className="bg-no-repeat h-[824px] w-auto" style={{ backgroundImage: `url('/src/assets/image.jpg')` }}>
+      <div className="bg-no-repeat h-[824px] w-screen bg-cover" style={{ backgroundImage: `url(${IMAGE_1})` }}>
         <button className="absolute flex w-[361px] h-[89px] px-[74.07px] justify-center items-center rounded-[33px] bg-[#A259FF]  mt-[276px] ml-[460px]">
-            <img className="mr-[17.78px] w-[29.629px] h-[29.629px] " src="/src/assets/RocketLaunch.png"/>
+            <img className="mr-[17.78px] w-[29.629px] h-[29.629px] " src={RocketLaunch}/>
             <p className="text-white text-center font-sans text-[23.704px] not-italic font-semibold leading-[33.185px]">Play Now!!</p>
         </button>
       </div>
@@ -21,7 +25,7 @@ const Home = () => {
           </div>
           <Link to="ranking">
               <button className="absolute px-[50px] justify-center items-center rounded-[20px]  border-[#A259FF] border-[2px] border-solid h-[60px] mt-4 flex">
-                <img className="w-8 h-6 pr-3 " src="/src/assets/RocketLaunch_2.png"/>
+                <img className="w-8 h-6 pr-3 " src={RocketLaunch_2}/>
                 <p className="text-white font-sans  text-base not-italic font-semibold leading-[22.4px]">View Rankings</p>
               </button>
           </Link>
