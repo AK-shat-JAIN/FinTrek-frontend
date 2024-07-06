@@ -46,12 +46,16 @@ import eye from "../assets/Eye.png"
 import T1 from "../assets/T1.png"
 import T2 from "../assets/T2.png"
 import T3 from "../assets/T3.png"
+import I1 from "../assets/I1.png"
+import I2 from "../assets/I2.png"
+import I3 from "../assets/I3.png"
 
 import { IMAGE_1 } from "../utils/constants"
 import { ArtistCard } from "../Components/ArtistCard";
 import { RecommendationCard } from "../Components/RecommendationCard"
 import { BrowserCategoryCard } from "../Components/BrowserCategoryCard"
 import { TutorialCard } from "../Components/TutorialCard"
+import { InfoCard } from "../Components/InfoCard"
 
 const Home = () => {
   return (
@@ -110,7 +114,7 @@ const Home = () => {
       {/* Browser Categories */}
        <div className="py-20 px-28">
           <p className="text-white font-sans text-4xl not-italic font-semibold mb-5">Browse Categories</p>
-          <div className="flex flex-wrap gap-6 2xl:gap-x-32 justify-center self-stretch">
+          <div className="flex flex-wrap gap-6 2xl:gap-x-32 2xl:gap-y-11 justify-center self-stretch">
             <BrowserCategoryCard img={B1} icon={brush} name="Art"/>
             <BrowserCategoryCard img={B2} icon={swatches} name="Collectibles"/>
             <BrowserCategoryCard img={B3} icon={music} name="Music"/>
@@ -136,7 +140,7 @@ const Home = () => {
                 </button>
             </Link>
           </div>
-            <div className="mb-14 flex flex-wrap gap-6 2xl:gap-x-32 justify-center self-stretch">
+            <div className="mb-14 flex flex-wrap gap-6 2xl:gap-x-44 justify-center self-stretch">
             <TutorialCard img={T1} text="How to Sell Your NFTs OpenSea Tutorial"/>
             <TutorialCard img={T2} text="What is a Smart Contract ? "/>
             <TutorialCard img={T3} text="What is Web3 and Blockchain ? "/>
@@ -148,6 +152,11 @@ const Home = () => {
         <div className="mb-12">
           <p className="text-white font-sans text-4xl not-italic font-semibold mb-2">How it works</p>
           <p className="text-white text-xl not-italic font-normal">Find out how to get started</p>
+        </div>
+        <div className=" flex flex-wrap gap-6 2xl:gap-x-44 justify-center self-stretch">
+          <InfoCard icon={I1} p1="Setup Your wallet" p2="Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner."/>
+          <InfoCard icon={I2} p1="Create Collection" p2="Upload your work and setup your collection. Add a description, social links and floor price."/>
+          <InfoCard icon={I3} p1="Start Earning" p2="Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."/>
         </div>
        </div>
 
