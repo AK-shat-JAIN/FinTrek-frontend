@@ -140,7 +140,7 @@ const Home = () => {
                 </button>
             </Link>
           </div>
-            <div className="mb-14 flex flex-wrap gap-6 2xl:gap-x-44 justify-center self-stretch">
+            <div className="mb-14 flex flex-wrap gap-6 2xl:gap-x-36 justify-center self-stretch">
             <TutorialCard img={T1} text="How to Sell Your NFTs OpenSea Tutorial"/>
             <TutorialCard img={T2} text="What is a Smart Contract ? "/>
             <TutorialCard img={T3} text="What is Web3 and Blockchain ? "/>
