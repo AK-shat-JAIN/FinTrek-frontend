@@ -42,11 +42,16 @@ import basket from "../assets/Basketball.png"
 import B7 from "../assets/B7.png"
 import planet from "../assets/Planet.png"
 import B8 from "../assets/B8.png"
+import eye from "../assets/Eye.png"
+import T1 from "../assets/T1.png"
+import T2 from "../assets/T2.png"
+import T3 from "../assets/T3.png"
 
 import { IMAGE_1 } from "../utils/constants"
 import { ArtistCard } from "./ArtistCard";
 import { RecommendationCard } from "./RecommendationCard"
 import { BrowserCategoryCard } from "./BrowserCategoryCard"
+import { TutorialCard } from "./TutorialCard"
 
 const Home = () => {
   return (
@@ -66,7 +71,7 @@ const Home = () => {
             <p className="text-white text font-sans text-3xl not-italic font-semibold leading-[45.6px] capitalize w-[703px] h-[46px]">Top Rankers</p>
             <p className="text-white font-sans text-[22px] not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px]">Checkout Our Top Perfomers</p> 
           </div>
-          <Link to="ranking">
+          <Link to="/ranking">
               <button className=" px-[50px] justify-center items-center rounded-[20px]  border-[#A259FF] border-[2px] border-solid h-[60px] mt-4 flex">
                 <img className="w-8 h-6 pr-3 " src={RocketLaunch_2}/>
                 <p className="text-white font-sans  text-base not-italic font-semibold leading-[22.4px]">View Rankings</p>
@@ -114,11 +119,39 @@ const Home = () => {
             <BrowserCategoryCard img={B6} icon={magic} name="Utility"/>
             <BrowserCategoryCard img={B7} icon={basket} name="Sport"/>
             <BrowserCategoryCard img={B8} icon={planet} name="Virutal Worlds"/>
-
-            {/* <BrowserCategoryCard img={B2} icon={swataches} name="Collectibles"/>
-            <BrowserCategoryCard img={B2} icon={swataches} name="Collectibles"/> */}
           </div>
        </div>
+       
+       {/* Tutorial and Recommendations */}
+       <div className="py-20 px-28">
+        <div className="flex flex-row mb-14">
+            <div className="flex flex-col mr-auto">
+              <p className="text-white text font-sans text-3xl not-italic font-semibold leading-[45.6px] capitalize w-[703px] h-[46px]">Get Tutorial and Recommendation</p>
+              <p className="text-white font-sans text-[22px] not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px]">learn, invest, grow</p> 
+            </div>
+            <Link to="/artist">
+                <button className=" px-[50px] justify-center items-center rounded-[20px]  border-[#A259FF] border-[2px] border-solid h-[60px] mt-4 flex">
+                  <img className="w-8 h-6 pr-3 " src={eye}/>
+                  <p className="text-white font-sans  text-base not-italic font-semibold leading-[22.4px]">See All</p>
+                </button>
+            </Link>
+          </div>
+            <div className="mb-14 flex flex-wrap gap-6 2xl:gap-x-32 justify-center self-stretch">
+            <TutorialCard img={T1} text="How to Sell Your NFTs OpenSea Tutorial"/>
+            <TutorialCard img={T2} text="What is a Smart Contract ? "/>
+            <TutorialCard img={T3} text="What is Web3 and Blockchain ? "/>
+          </div>
+       </div>
+
+       {/* How It works */}
+       <div className="py-20 px-28 ">
+        <div className="mb-12">
+          <p className="text-white font-sans text-4xl not-italic font-semibold mb-2">How it works</p>
+          <p className="text-white text-xl not-italic font-normal">Find out how to get started</p>
+        </div>
+       </div>
+
+      
       
     </div>
   )

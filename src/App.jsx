@@ -11,6 +11,7 @@ import Premium from './Components/Premium'
 import Rankings from './Components/Rankings'
 import Signup from './Components/Signup'
 import { BrowserMarket } from './Components/BrowserMarket'
+import { Artist } from './Components/Artist'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/signup" element={<Signup/>}></Route>
         <Route path="/" element={<Home/>}></Route>
         <Route path='/browsermarket' element={<BrowserMarket/>}></Route>
+        <Route path="/artist" element={<Artist/>}></Route>
       </Routes>
       <Footer />
     </>
