@@ -3,3 +3,5 @@ export const Artist = () => {
         <div><h1 className="text-white">Artist</h1></div>
     )
 }
+
+export default Artist

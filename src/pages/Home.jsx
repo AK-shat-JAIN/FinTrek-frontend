@@ -48,10 +48,10 @@ import T2 from "../assets/T2.png"
 import T3 from "../assets/T3.png"
 
 import { IMAGE_1 } from "../utils/constants"
-import { ArtistCard } from "./ArtistCard";
-import { RecommendationCard } from "./RecommendationCard"
-import { BrowserCategoryCard } from "./BrowserCategoryCard"
-import { TutorialCard } from "./TutorialCard"
+import { ArtistCard } from "../Components/ArtistCard";
+import { RecommendationCard } from "../Components/RecommendationCard"
+import { BrowserCategoryCard } from "../Components/BrowserCategoryCard"
+import { TutorialCard } from "../Components/TutorialCard"
 
 const Home = () => {
   return (
