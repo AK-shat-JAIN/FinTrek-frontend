@@ -10,6 +10,7 @@ import Navbar from './Components/Navbar'
 import Premium from './Components/Premium'
 import Rankings from './Components/Rankings'
 import Signup from './Components/Signup'
+import { BrowserMarket } from './Components/BrowserMarket'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/premium" element={<Premium/>}></Route>
         <Route path="/signup" element={<Signup/>}></Route>
         <Route path="/" element={<Home/>}></Route>
+        <Route path='/browsermarket' element={<BrowserMarket/>}></Route>
       </Routes>
       <Footer />
     </>

@@ -26,9 +26,27 @@ import D1 from "../assets/D1.png"
 import d2 from "../assets/d2.png"
 import d3 from "../assets/d3.png"
 import d4 from "../assets/d4.png"
+import B1 from "../assets/B1.png"
+import brush from "../assets/PaintBrush.png"
+import B2 from "../assets/B2.png"
+import swatches from "../assets/Swatches.png"
+import B3 from "../assets/B3.png"
+import music from "../assets/MusicNotes.png"
+import B4 from "../assets/B4.png"
+import camera from "../assets/Camera.png"
+import vid from "../assets/VideoCamera.png"
+import B5 from "../assets/B5.png"
+import magic from "../assets/MagicWand.png"
+import B6 from "../assets/B6.png"
+import basket from "../assets/Basketball.png"
+import B7 from "../assets/B7.png"
+import planet from "../assets/Planet.png"
+import B8 from "../assets/B8.png"
+
 import { IMAGE_1 } from "../utils/constants"
 import { ArtistCard } from "./ArtistCard";
 import { RecommendationCard } from "./RecommendationCard"
+import { BrowserCategoryCard } from "./BrowserCategoryCard"
 
 const Home = () => {
   return (
@@ -72,12 +90,12 @@ const Home = () => {
       </div>
 
       {/* Recommendation Section */}
-      <div className="py-20 px-28">
+      <div className="py-20 px-28 ">
         <div className="mb-14">
           <p className="text-white font-sans text-4xl not-italic font-semibold mb-2">Recommendations</p>
           <p className="text-white text-xl not-italic font-normal">Checkout The Trending Collections To Know What Suits You The Best.</p>
         </div>
-        <div className="flex flex-wrap gap-6">
+        <div className="flex flex-wrap gap-6 2xl:gap-44 self-stretch justify-center">
           <RecommendationCard imgP={R1} imgS1={r2} imgS2={r3} imgL={r4} collection="DESN Animals" artist="MrFox"/>
           <RecommendationCard imgP={M1} imgS1={m2} imgS2={m3} imgL={m4} collection="Magic Mushrooms" artist="Shrommie"/>
           <RecommendationCard imgP={D1} imgS1={d2} imgS2={d3} imgL={d4} collection="Disco Machines" artist="BeKind2Robots"/>
@@ -85,7 +103,22 @@ const Home = () => {
       </div>
 
       {/* Browser Categories */}
-       
+       <div className="py-20 px-28">
+          <p className="text-white font-sans text-4xl not-italic font-semibold mb-5">Browse Categories</p>
+          <div className="flex flex-wrap gap-6 2xl:gap-x-32 justify-center self-stretch">
+            <BrowserCategoryCard img={B1} icon={brush} name="Art"/>
+            <BrowserCategoryCard img={B2} icon={swatches} name="Collectibles"/>
+            <BrowserCategoryCard img={B3} icon={music} name="Music"/>
+            <BrowserCategoryCard img={B4} icon={camera} name="Photography"/>
+            <BrowserCategoryCard img={B5} icon={vid} name="Video"/>
+            <BrowserCategoryCard img={B6} icon={magic} name="Utility"/>
+            <BrowserCategoryCard img={B7} icon={basket} name="Sport"/>
+            <BrowserCategoryCard img={B8} icon={planet} name="Virutal Worlds"/>
+
+            {/* <BrowserCategoryCard img={B2} icon={swataches} name="Collectibles"/>
+            <BrowserCategoryCard img={B2} icon={swataches} name="Collectibles"/> */}
+          </div>
+       </div>
       
     </div>
   )
