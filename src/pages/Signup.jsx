@@ -14,22 +14,22 @@ const Signup = () => {
 
         <div className=" flex bg-white px-5 py-4 w-80 h-11 items-center rounded-2xl">
           <img src={user} />
-          <input className="ml-3 " type="text" placeholder="Username" />
+          <input className="ml-3 border-none focus:outline-none p-1 w-full placeholder-black" type="text" placeholder="Username"/>
         </div>
 
-        <div className=" flex bg-white px-5 py-4 w-80 h-11 items-center rounded-2xl mt-4">
+        <div className=" flex bg-white px-5 py-4 w-80 h-11 items-center rounded-2xl mt-4 ">
           <img src={email} />
-          <input className="ml-3" type="email" placeholder="Email Address" />
+          <input className="ml-3 border-none focus:outline-none w-full placeholder-black" type="email" placeholder="Email Address" />
         </div>
         
         <div className=" flex bg-white px-5 py-4 w-80 h-11 items-center rounded-2xl mt-4">
           <img src={lock} />
-          <input className="ml-3" type="password" placeholder="Password" />
+          <input className="ml-3 border-none focus:outline-none w-full placeholder-black" type="password" placeholder="Password" />
         </div>
 
         <div className=" flex bg-white px-5 py-4 w-80 h-11 items-center rounded-2xl mt-4 mb-8">
           <img src={lock} />
-          <input className="ml-3" type="password" placeholder="Confirm Password" />
+          <input className="ml-3 border-none focus:outline-none w-full placeholder-black" type="password" placeholder="Confirm Password" />
         </div>
 
         <button className="w-80 h-12 bg-[#A259FF] justify-center text-white rounded-2xl text-base font-semibold">Create account</button>
