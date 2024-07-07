@@ -22,7 +22,7 @@ export const BrowserMarket = () => {
             </div>
 
         
-            <div className=" justify center items-center w-[1050px] h-10 mx-20 flex gap-16">
+            <div className="2xl:ml-80  justify center items-center w-[1050px] h-10 mx-20 flex gap-16">
                 <button className="text-xl text-[#858584] w-2/6 mx-7 items-center  hover:text-white  hover:decoration-white">
                         <p className="font-semibold hover:underline hover:underline-offset-8">NFTs</p>
                 </button>
@@ -32,7 +32,7 @@ export const BrowserMarket = () => {
                 </button>
             </div>
 
-            <div className="my-14 flex flex-wrap gap-9">
+            <div className="my-14 flex flex-wrap gap-9 items-center justify-center 2xl:gap-32">
                 <NftCard bgimg={Mushroom} cardname="The Great Wave" avatar={Shrommie} name="Animakid" price="0.5" bid="0.7" />
                 <NftCard bgimg={robot} cardname="Happy Robot 032" avatar={fox} name="BeKind2Robots" price="0.5" bid="0.7" />
                 <NftCard bgimg={robot2} cardname="Happy Robot 024" avatar={fox} name="BeKind2Robots" price="0.5" bid="0.7" />
