@@ -32,7 +32,7 @@ export const BrowserMarket = () => {
                 </button>
             </div>
 
-            <div className="my-14 flex flex-wrap gap-9 items-center justify-center 2xl:gap-32">
+            <div className="my-14 flex flex-wrap gap-9 items-center justify-center 2xl:gap-x-60 2xl:gap-y-20">
                 <NftCard bgimg={Mushroom} cardname="The Great Wave" avatar={Shrommie} name="Animakid" price="0.5" bid="0.7" />
                 <NftCard bgimg={robot} cardname="Happy Robot 032" avatar={fox} name="BeKind2Robots" price="0.5" bid="0.7" />
                 <NftCard bgimg={robot2} cardname="Happy Robot 024" avatar={fox} name="BeKind2Robots" price="0.5" bid="0.7" />
