@@ -75,7 +75,7 @@ const Home = () => {
             <p className="text-white text font-sans text-3xl not-italic font-semibold leading-[45.6px] capitalize w-[703px] h-[46px]">Top Rankers</p>
             <p className="text-white font-sans text-[22px] not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px]">Checkout Our Top Perfomers</p> 
           </div>
-          <Link to="/ranking">
+          <Link to="/rankings">
               <button className=" px-[50px] justify-center items-center rounded-[20px]  border-[#A259FF] border-[2px] border-solid h-[60px] mt-4 flex">
                 <img className="w-8 h-6 pr-3 " src={RocketLaunch_2}/>
                 <p className="text-white font-sans  text-base not-italic font-semibold leading-[22.4px]">View Rankings</p>
@@ -115,7 +115,9 @@ const Home = () => {
        <div className="py-20 px-28">
           <p className="text-white font-sans text-4xl not-italic font-semibold mb-5">Browse Categories</p>
           <div className="flex flex-wrap gap-6 2xl:gap-x-32 2xl:gap-y-11 justify-center self-stretch">
-            <BrowserCategoryCard img={B1} icon={brush} name="Art"/>
+            <Link to="/browsermarket">
+              <BrowserCategoryCard img={B1} icon={brush} name="Art"/>
+            </Link>
             <BrowserCategoryCard img={B2} icon={swatches} name="Collectibles"/>
             <BrowserCategoryCard img={B3} icon={music} name="Music"/>
             <BrowserCategoryCard img={B4} icon={camera} name="Photography"/>

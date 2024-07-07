@@ -27,7 +27,7 @@ function App() {
         <Route path='/browsermarket' element={<BrowserMarket/>}></Route>
         <Route path="/artist" element={<Artist/>}></Route>
         
-        <Route path="/*" element={<Artist/>}></Route>
+        {/* <Route path="/*" element={<Artist/>}></Route> */}
       </Routes>
       <Footer />
     </>
