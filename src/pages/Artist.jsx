@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import artist from '../assets/artist.png'
 import avatar from '../assets/Avatar.png'
 import { FaPlus } from 'react-icons/fa'
