@@ -17,7 +17,7 @@ import T1 from "../assets/T1.png"
 
 export const Artist = () => {
     return (
-        <div className="pt-5 pb-5 flex flex-col">
+        <div className="pb-5 flex flex-col">
             <img className='' src={artist} alt="" />
             <div className="pl-44 mt-[-5rem] justify-start items-start inline-flex">
                 <div className="rounded-[20px] border-2 border-zinc-800 justify-start items-start gap-2.5 flex">

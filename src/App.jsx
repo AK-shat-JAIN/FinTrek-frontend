@@ -12,11 +12,14 @@ import Rankings from './pages/Rankings'
 import Signup from './pages/Signup'
 import { BrowserMarket } from './pages/BrowserMarket'
 import Artist from './pages/Artist'
+import Login from './pages/Login'
+import Scrolltotop from './Helpers/Scrolltotop'
 
 function App() {
 
   return (
     <>
+      <Scrolltotop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/>}></Route>
