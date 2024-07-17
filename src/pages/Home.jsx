@@ -96,7 +96,7 @@ const Home = () => {
           <ArtistCard image={Ghiblier} name="Ghiblier" sales="34.53"/>
         </div>
         <Link to="/rankings">
-          <button className="md:hidden mx-auto left-0 right-0 w-72 h-14 border-2 flex items-center justify-center border-solid rounded-2xl border-[#A259FF] mt-16">
+          <button className="md:hidden w-60 h-14 border-2 flex items-center justify-center border-solid rounded-2xl border-[#A259FF] mt-16">
             <img className="mr-3" src={RocketLaunch_2} alt="" />
             <p className="text-white">View Ranking</p>
           </button>
@@ -155,7 +155,7 @@ const Home = () => {
             <TutorialCard img={T3} text="What is Web3 and Blockchain ? "/>
           </div>
           <Link to="/artist">
-            <button className="md:hidden mx-auto left-0 right-0 w-72 h-14 border-2 flex items-center justify-center border-solid rounded-2xl border-[#A259FF] mt-16">
+            <button className="md:hidden  w-60 h-14 border-2 flex items-center justify-center border-solid rounded-2xl border-[#A259FF] mt-16">
               <img className="mr-3" src={eye} alt="" />
               <p className="text-white">See All</p>
             </button>

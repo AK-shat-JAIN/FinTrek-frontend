@@ -33,7 +33,7 @@ const Navbar = () => {
         </Link>
 
         <Link to="/signup">
-          <button className="mt-[0px] flex md:h-[60px] h-7 md:w-auto w-20 justify-center items-center  md:rounded-[20px] rounded-lg ml-8 bg-[#A259FF]">
+          <button className="mt-[0px] flex md:h-[60px] h-7 md:w-auto w-20 justify-center items-center  md:rounded-[20px] rounded-lg ml-8 bg-[#A259FF] md:mr-0 mr-6">
             <FaRegUser className="md:w-5 md:h-5 w-2 h-2 md:mr-3 mr-1 text-white" />
             <p className="text-white text-center font-sans md:text-base text-[8px] not-italic font-semibold leading-3 md:leading-[22.4px]">Sign Up</p>
           </button>
