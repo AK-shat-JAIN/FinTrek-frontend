@@ -9,7 +9,7 @@ function Footer() {
     <>
         <footer className='relative top-0 bottom-0 py-5 flex flex-col gap-8 text-white bg-[#1F1F1F] sm:px-20'>
             <div className="flex flex-row justify-center items-center">
-                <img className="w-[48px] h-[55px]" src="https://s3-alpha-sig.figma.com/img/9ede/1459/18b2517fd8b5f8249fd12bbf2a269041?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Y6JGTm16u0uOqPuZ7u8CrF9v4BFk5UtYZpr1mb4vox-yjpLzZi6ZIyqwttGaESuF-2gaNVFrCIUslKYuX244KwJ0szGkW-wlaBdpXOV4dLwA8kaM82j7NdAIf4oCDangeb-K0WIhihPNYV2e5wrMM4azqkcdxthW~TbkhccUp55DU2P-x8MB8i8VcQubwjon~mPNHqzqruiB2~2GQN-3dUo7Gdp1ecAZXV0fdDCTg6XGsCNofAfwcXdK0fmLb2FJIIwjWkphYx9v9H~1mFPstrY1fCyCvc0IJKoYYGq~Tc5PSCIYEBsWUeEUE2AamJB0Wbr--k5EBWSZ-JLbalkj9w__"/>
+                <img className="w-[48px] h-[55px]" src={LOGO}/>
                 <p className="pt-2 font-sans text-[27.661px] not-italic font-semibold leading-[38.725px] text-white" >FinTrek</p>
             </div>
             <div className="flex flex-row items-center justify-around gap-5">
