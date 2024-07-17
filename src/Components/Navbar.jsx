@@ -26,14 +26,14 @@ const Navbar = () => {
         </Link>
 
         <Link to="/premium">
-          <button className="mt-[0px] flex md:h-[60px] h-7 justify-center items-center md:px-[30px] px-2 md:rounded-[20px] rounded-lg md:ml-8 ml-20 border-[#A259FF] md:border-[3px] border-2 border-solid">
+          <button className="mt-[0px] flex md:h-[60px] h-7 md:w-auto w-24 justify-center items-center md:px-[30px] md:rounded-[20px] rounded-lg md:ml-8 ml-20 border-[#A259FF] md:border-[3px] border-2 border-solid">
             <FaCrown className="md:w-[26px] w-3 md:h-5 h-2 md:mr-3 mr-1 text-yellow-400"/>
             <p className="text-white text-center font-sans text-[7px] md:text-base not-italic font-semibold md:leading-[22.4px] leading-3">Get Premium</p>  
           </button>
         </Link>
 
         <Link to="/signup">
-          <button className="mt-[0px] flex md:h-[60px] h-7 justify-center items-center px-[30px] md:rounded-[20px] rounded-lg ml-8 bg-[#A259FF]">
+          <button className="mt-[0px] flex md:h-[60px] h-7 md:w-auto w-20 justify-center items-center  md:rounded-[20px] rounded-lg ml-8 bg-[#A259FF]">
             <FaRegUser className="md:w-5 md:h-5 w-2 h-2 md:mr-3 mr-1 text-white" />
             <p className="text-white text-center font-sans md:text-base text-[8px] not-italic font-semibold leading-3 md:leading-[22.4px]">Sign Up</p>
           </button>

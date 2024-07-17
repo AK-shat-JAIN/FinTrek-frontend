@@ -70,9 +70,9 @@ const Home = () => {
       {/* Top Rankers section */}
       <div className="md:py-20 py-10 md:px-28 px-16">
         <div className="flex flex-row">
-          <div className="flex flex-col mr-auto">
-            <p className="text-white text font-sans text-3xl not-italic font-semibold md:leading-[45.6px] leading-10 capitalize w-[703px] h-[46px]">Top Rankers</p>
-            <p className="text-white font-sans text-[22px] not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px]">Checkout Our Top Perfomers</p> 
+          <div className="flex flex-col">
+            <p className="text-white font-sans text-3xl not-italic font-semibold md:leading-[45.6px] leading-10 capitalize w-[703px] h-[46px]">Top Rankers</p>
+            <p className="text-white font-sans md:text-[22px] text-base not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px]">Checkout Our Top Perfomers</p> 
           </div>
           <Link to="/rankings" className="hidden md:block">
               <button className=" px-[50px] justify-center items-center rounded-[20px]  border-[#A259FF] border-[2px] border-solid h-[60px] mt-4 flex">
@@ -139,7 +139,7 @@ const Home = () => {
             <div className="flex flex-col mr-auto">
               <p className="hidden md:block text-white text font-sans text-3xl not-italic font-semibold leading-[45.6px] capitalize w-[703px] h-[46px]">Get Tutorial and Recommendation</p>
               <p className="hidden md:block text-white font-sans text-[22px] not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px]">learn, invest, grow</p> 
-              <p className="md:hidden text-white font-semibold font-sans leading-10 text-3xl mb-2">Discover More NFTs</p>
+              <p className="md:hidden text-white font-semibold font-sans leading-10 text-2xl mb-2">Discover More NFTs</p>
               <p className="md:hidden text-base font-normal text-white leading-5">Explore new trending NFTs</p>
             </div>
             <Link to="/artist">
