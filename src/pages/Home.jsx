@@ -71,8 +71,8 @@ const Home = () => {
       <div className="md:py-20 py-10 md:px-28 px-16">
         <div className="flex flex-row">
           <div className="flex flex-col mr-auto">
-            <p className="text-white font-sans text-3xl not-italic font-semibold md:leading-[45.6px] leading-10 capitalize w-[703px] h-[46px]">Top Rankers</p>
-            <p className="text-white font-sans md:text-[22px] text-base not-italic font-normal leading-[35.2px] capitalize w-[703px] h-[35px]">Checkout Our Top Perfomers</p> 
+            <p className="text-white font-sans text-3xl not-italic font-semibold md:leading-[45.6px] leading-10 capitalize h-[46px]">Top Rankers</p>
+            <p className="text-white font-sans md:text-[22px] text-base not-italic font-normal leading-[35.2px] capitalize h-[35px]">Checkout Our Top Perfomers</p> 
           </div>
           <Link to="/rankings" className="hidden md:block">
               <button className="px-[50px] justify-center items-center rounded-[20px]  border-[#A259FF] border-[2px] border-solid h-[60px] mt-4 flex">

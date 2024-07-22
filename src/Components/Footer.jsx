@@ -7,12 +7,13 @@ function Footer() {
 
   return (
     <>
-        <footer className='relative top-0 bottom-0 py-5 flex flex-col gap-8 text-white bg-[#1F1F1F] sm:px-20'>
-            <div className="flex flex-row justify-center items-center">
-                <img className="w-[48px] h-[55px]" src={LOGO}/>
+        <footer className='py-5 px-7 flex flex-col gap-8 text-white bg-[#1F1F1F]'>
+            <div className="flex flex-row md:justify-center md:items-center">
+                <img className="h-[55px]" src={LOGO}/>
                 <p className="pt-2 font-sans text-[27.661px] not-italic font-semibold leading-[38.725px] text-white" >FinTrek</p>
             </div>
-            <div className="flex flex-row items-center justify-around gap-5">
+            <div className="text-stone-300 md:text-center font-normal font-['Work Sans'] leading-snug">NFT marketplace UI created with Anima for Figma.</div>
+            <div className="flex flex-col md:flex-row md:items-center justify-around gap-5">
                 <div className="flex-col justify-start items-start gap-[15px] flex">
                     <div className="w-[238px] h-[18px] text-stone-300 text-base font-normal font-['Work Sans'] leading-snug">Join our community</div>
                     <div className="justify-start items-start gap-2.5 inline-flex">
@@ -30,9 +31,9 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="flex-col justify-start items-start gap-[15px] flex">
+                <div className="flex-col justify-start items-start gap-[10px] flex">
                     <div className="text-white text-[22px] font-bold font-['Space Mono'] capitalize leading-9">Explore</div>
-                    <div className="w-[133px] h-[106px] flex-col justify-start items-start gap-5 inline-flex">
+                    <div className="w-[133px] h-[106px] flex-col justify-start items-start gap-3 inline-flex">
                         <Link to='/browsermarket'>
                             <div className="text-stone-300 text-base font-normal font-['Work Sans'] leading-snug cursor-pointer">Marketplace</div>
                         </Link>
@@ -45,19 +46,20 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex-col justify-start items-start gap-[15px] flex">
+                    <div className="text-white text-[22px] font-bold font-['Space Mono'] capitalize leading-9">Join our weekly digest</div>
                     <div className="w-[330px]">
                         <p className="text-stone-300 text-base font-normal font-['Work Sans'] leading-snug inline">Get exclusive boost and powerups by purchasing our </p>
                         <p className="text-yellow-400 text-base font-normal font-['Work Sans'] leading-snug inline cursor-pointer">premium model.</p>
                     </div>
-                    <div className="w-[420px] h-[60px] pl-5 py-4 bg-white rounded-[20px] justify-start items-center gap-3 inline-flex">
-                        <input type='text' placeholder='Enter your email here' className="grow shrink basis-0 text-neutral-900 text-base font-normal font-['Work Sans'] leading-snug" />
-                        <div className="w-[179px] px-[50px] py-5 bg-purple-500 rounded-[20px] justify-end items-center gap-3 flex cursor-pointer">
-                            <div className="text-center text-white text-base font-semibold font-['Work Sans'] leading-snug">Subscribe</div>
+                    <form className='w-[100%]'>
+                        <div className='w-[100%] flex flex-col md:flex-row gap-2'>
+                            <input type='text' placeholder='Enter your email here' className="px-5 py-3 md:py-5 md:grow inline bg-white rounded-[20px] text-neutral-900 text-base font-normal font-['Work Sans'] leading-snug" />
+                            <input type='submit' className="px-10 py-3 md:py-5 bg-purple-500 rounded-[20px] text-center cursor-pointer text-white text-base font-semibold font-['Work Sans'] leading-snug" value="Subscribe"/>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
-        </footer>
+        </footer>   
     </>
     
   );
