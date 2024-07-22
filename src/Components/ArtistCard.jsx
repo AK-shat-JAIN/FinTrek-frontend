@@ -6,7 +6,7 @@ export const ArtistCard = (props) => {
                 <div className="flex-col md:hidden ml-4">
                 <p className="text-white font-sans text-xl not-italic font-semibold capitalize">{props.name}</p>
                     <div className="flex">
-                    <p className="text-[#858584] font-sans md:text-base text-sm not-italic font-normal md:mr-3 mr-1">Total Sales:</p> 
+                    <p className="text-[#858584] font-sans md:text-base text-sm not-italic font-normal md:mr-3 mr-3">Total Sales:</p> 
                     <p className="text-white font-['Space_Mono'] md:text-base text-sm not-italic font-normal">{props.sales} ETH</p> 
                     </div>
                </div>
