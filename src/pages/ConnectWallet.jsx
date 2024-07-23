@@ -15,15 +15,15 @@ const ConnectWallet = () => {
 
       {/* Wallet Providers */}
       <div className="flex flex-col justify-center items-center pt-5 pb-32"> 
-          <div className="w-7/12 border-2 rounded-xl border-solid flex p-4 border-[#6C6C6C] cursor-pointer">
+          <div className="w-7/12 border-[1px] rounded-xl border-solid flex p-4 border-[#6C6C6C] cursor-pointer">
               <img src={fox} alt="" className="px-4"/>
               <p className="text-white">Metamask</p>
           </div>
-          <div className="w-7/12 border-2 rounded-xl border-solid flex p-4 border-[#6C6C6C] cursor-pointer">
+          <div className="w-7/12 border-[1px] rounded-xl border-solid flex p-4 border-[#6C6C6C] cursor-pointer">
               <img src={coin} alt="" className="px-4"/>
               <p className="text-white">Coinbase Wallet</p>
           </div>
-          <div className="w-7/12 border-2 rounded-xl border-solid flex p-4 border-[#6C6C6C] cursor-pointer">
+          <div className="w-7/12 border-[1px] rounded-xl border-solid flex p-4 border-[#6C6C6C] cursor-pointer">
               <img src={wallet} alt="" className="px-3"/>
               <p className="text-white">WalletConnect</p>
           </div>

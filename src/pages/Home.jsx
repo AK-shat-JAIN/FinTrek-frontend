@@ -117,7 +117,7 @@ const Home = () => {
       </div>
 
       {/* Browser Categories */}
-       <div className="md:py-20 py-10 md:px-28 px-16">
+       <div className="md:py-20 py-10 md:px-28 px-14">
           <p className="text-white font-sans md:text-4xl text-3xl not-italic font-semibold md:mb-5 mb-10">Browse Categories</p>
           <div className="flex flex-wrap md:gap-6 gap-5 2xl:gap-x-32 2xl:gap-y-11 md:justify-center self-stretch">
             <Link to="/browsermarket">
