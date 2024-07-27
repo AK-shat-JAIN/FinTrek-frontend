@@ -15,7 +15,7 @@ export const ArtistCard = (props) => {
                 <p className="text-white font-sans text-xl not-italic font-semibold capitalize">{props.name}</p>
             </div>
             <div className="md:flex md:justify-center justify-end hidden">
-                <p className="text-[#858584] font-sans text-base not-italic font-normal md:mr-3 mr-1">Total Sales:</p>
+                <p className="text-[#858584] font-sans text-base not-italic font-normal md:mr-3 mr-1">Total Score:</p>
                 <p className="text-white font-['Space_Mono'] text-base not-italic font-normal">{props.sales} ETH</p> 
             </div>  
         </div> 
