@@ -15,6 +15,7 @@ import Artist from './pages/Artist'
 import Login from './pages/Login'
 import Scrolltotop from './Helpers/Scrolltotop'
 import Recommandations from './pages/Recommandations'
+import Categroy from './pages/Categroy'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/artist" element={<Artist/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path='/recommandations' element={<Recommandations/>}></Route>
+        <Route path='/category/:id' element={<Categroy/>}></Route>
         
         {/* <Route path="/*" element={<Artist/>}></Route> */}
       </Routes>
