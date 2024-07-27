@@ -11,7 +11,7 @@ export const RecommendationCard = (props) => {
                 <img src={props.imgS2} />
                 
                 <div className="w-24 h-24 bg-[#A259FF] rounded-2xl">
-                <Link to="/browsermarket">
+                <Link to="/recommandations">
                     <p className="text-white text-center mt-8 text-xl font-['Space-Mono'] font-bold capitalize">1025+</p>
                 </Link>
                 </div>

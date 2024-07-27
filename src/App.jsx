@@ -14,6 +14,7 @@ import { BrowserMarket } from './pages/BrowserMarket'
 import Artist from './pages/Artist'
 import Login from './pages/Login'
 import Scrolltotop from './Helpers/Scrolltotop'
+import Recommandations from './pages/Recommandations'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         <Route path='/browsermarket' element={<BrowserMarket/>}></Route>
         <Route path="/artist" element={<Artist/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
+        <Route path='/recommandations' element={<Recommandations/>}></Route>
         
         {/* <Route path="/*" element={<Artist/>}></Route> */}
       </Routes>

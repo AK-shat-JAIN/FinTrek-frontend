@@ -6,6 +6,9 @@ export default {
       placeholderColor: {
         'black': '#000000',
       },
+      backgroundColor: {
+        'custom-rgba': 'rgba(255, 255, 255, 0.05)',
+      },
     },
   },
   plugins: [
